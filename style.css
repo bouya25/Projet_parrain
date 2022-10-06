@@ -6,31 +6,3 @@ body{
     
    
 }
-main .large img{
-    
-    width: 100%;
-    height: auto;
-   
-}
-main .mobile{
-   display: none;
-}
-
-@media screen and (max-width: 375px){
-
-    main .large{
-        display: none;
-
-    }
-    main .large img{
-        display: none;
-
-    }
-    main .mobile{
-        display:flex;
-    }
-    main .mobile img{
-        width: 100%;
-        height: auto;
-    }
-}
